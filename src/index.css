@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'TTTTravels';
+  src: local(""), url("fonts/TTTravels-DemiBold.woff2") format("woff2"), url("fonts/TTTravels-DemiBold.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'TTTTravels';
+  src: local(""), url("fonts/TTTravels-Regular.woff2") format("woff2"), url("fonts/TTTravels-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+body {
+  background-color: tomato;
+  color: black;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: 'TTTTravels', sans-serif;
+}
+
+.img {
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+  background-image: url("./images/hero1.webp");
+}
+/*# sourceMappingURL=index.css.map */

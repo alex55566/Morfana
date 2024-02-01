@@ -1,0 +1,28 @@
+$mobileBreakpoint: 630px;
+$smtabletBreakpoint: 720px;
+$tabletBreakpoint: 1024px;
+$smDekstopBreakpoint: 1280px;
+
+@mixin smdekstop {
+    @media screen and (max-width: $smDekstopBreakpoint) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width: $tabletBreakpoint) {
+        @content;
+    }
+}
+
+@mixin smtablet {
+    @media screen and (max-width: $smtabletBreakpoint) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media screen and (max-width: $mobileBreakpoint) {
+        @content;
+    }
+}
